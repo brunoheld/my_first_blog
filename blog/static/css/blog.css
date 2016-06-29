@@ -1,0 +1,22 @@
+
+h1 a {
+	color: #ED1324;
+	font-family: 'Lobster';
+}
+body{
+	padding-left: 15px;
+}
+
+.titulo {
+	background-color: #000000;
+    margin-top: 0;
+    padding: 20px 20px 20px 500px;
+   }
+  .voltar {
+    margin-top: 0;
+    padding: 20px 20px 20px 500px;
+   }
+ .novo_post {
+    margin-top: 0;
+    padding: 20px 20px 20px 700px;
+   }

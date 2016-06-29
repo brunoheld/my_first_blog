@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+  {% block content %}
+  </div>
+  {% for post in posts %}
+    <div>
+        <p>published: {{ post.data_publicacao }}</p>
+        <h1><a href="{% url 'blog.views.post_detail' pk=post.pk %}">{{ post.titulo }}</a></h1>
+        <p>{{ post.texto|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+ {% endblock %}
